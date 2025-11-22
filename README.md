@@ -1,80 +1,80 @@
 # Spender Beta
 
-**Smart Personal Finance Tracker for iOS**
+**Smart Personal Finance Tracker**
 
 [![Download on App Store](https://img.shields.io/badge/App_Store-Download_Beta-blue?style=for-the-badge&logo=apple)](APP_STORE_LINK_HERE)
 [![Privacy First](https://img.shields.io/badge/Privacy-First-green?style=for-the-badge)](PRIVACY_POLICY.md)
 [![All Features Free](https://img.shields.io/badge/Beta-All_Features_FREE-orange?style=for-the-badge)](#beta-status)
 
-> **Stop manually tracking expenses. Start automatically tracking them.**
+> **Stop manually tracking expenses. Set up and forget.**
 
 Spender Beta is a native iOS app that automatically captures your financial transactions from bank SMS messages, with professional double-entry accounting and complete privacy.
 
 ---
 
-## ⚡ Beta Status
+##  Beta Status
 
 **All features are completely FREE during the beta period.**
 
 We're looking for beta testers to help us refine the app before the official launch. Your feedback is invaluable!
 
-- ✅ **Free:** All features unlocked
-- 🐛 **Testing:** Help us find and fix bugs
-- 💬 **Feedback:** Shape the future of Spender
-- 🚀 **Early Access:** Be among the first to use it
+-  **Free:** All features unlocked
+-  **Testing:** Help us find and fix bugs
+-  **Feedback:** Shape the future of Spender
+-  **Early Access:** Be among the first to use it
 
-[Join Beta →](#installation)
+[Join Beta †](#installation)
 
 ---
 
-## ✨ Features
+##  Features
 
-### 🤖 Automatic SMS Capture
+###  Automatic SMS Capture
 - **SMS Automation**: Set up once with iOS Shortcuts, capture transactions automatically
 - **SMS Analyzer**: Optional 583MB ML model for highly accurate extraction
 - **Works Without Model**: Manual entry and file imports available without the analyzer
 - **Bank Support**: Works with all major banks (Indian banks optimized)
 - **100% Private**: All SMS processing happens on your device
 
-### 💰 Professional Accounting
+###  Professional Accounting
 - **Double-Entry Ledger**: Bank-grade accuracy for all your accounts
 - **Real-Time Balances**: Automatically calculated and updated
 - **Multiple Account Types**: Savings, checking, credit cards, wallets
 - **Starting Balances**: Set initial balances for accurate tracking
 - **Account Merging**: Consolidate duplicate accounts seamlessly
 
-### 📊 Smart Categories
+###  Smart Categories
 - **13 Default Categories**: Food & Dining, Shopping, Transport, Bills & Utilities, Entertainment, Healthcare, Travel, Education, Income, Rent, Investment, Personal Transfer, Uncategorized
 - **Auto-Categorization**: Learns from your patterns
 - **Custom Categories**: Create your own
-- **Merchant Mapping**: Automatically remembers merchant→category assignments
+- **Merchant Mapping**: Automatically remembers merchant†category assignments
 
-### 🏦 Multi-Account Management
+###  Multi-Account Management
 - **Unlimited Accounts**: Track all your financial accounts
 - **Account Discovery**: Automatically discovers accounts from transactions
 - **Detailed History**: View per-account transaction history
 - **Account Summaries**: See balances and totals at a glance
 
-### 📥 Flexible Data Import/Export
+###  Flexible Data Import/Export
 - **CSV Import**: Import transactions from Excel, Google Sheets
 - **QIF & OFX Support**: Import from other finance apps
 - **Smart Column Matching**: Automatically detects column formats
 - **Duplicate Detection**: Skips duplicate transactions
 - **Export to CSV/QIF/OFX**: Take your data anywhere
 
-### 💾 Secure Backup & Sync
+###  Secure Backup & Sync
 - **Local XML Backups**: Encrypted backups you control
 - **iCloud Sync**: Automatic sync across your Apple devices
 - **Complete Backups**: All transactions, accounts, categories, settings included
 - **Easy Restore**: One-tap restore from backups
 
-### 🌍 Multi-Currency Support
+###  Multi-Currency Support
 - **150+ Currencies**: Support for all major currencies
 - **Automatic Conversion**: Real-time exchange rates
 - **Offline Rates**: Works without internet
 - **Custom Default**: Set your preferred currency
 
-### 🎨 Beautiful Design
+###  Beautiful Design
 - **Native iOS**: Built with SwiftUI for smooth performance
 - **Dark Mode**: Full dark mode support
 - **Custom Themes**: Multiple color themes
@@ -83,13 +83,13 @@ We're looking for beta testers to help us refine the app before the official lau
 
 ---
 
-## 📱 Screenshots
+##  Screenshots
 
 > Screenshots coming soon
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### Download from App Store
 
@@ -108,17 +108,17 @@ Spender Beta is available as a public beta on the App Store:
 
 ---
 
-## 🎯 Getting Started
+##  Getting Started
 
 ### Quick Setup (5 minutes)
 
-1. **Open the app** → View the dashboard
+1. **Open the app** † View the dashboard
 2. **Add your first transaction** manually (tap the + button)
 3. **Set up SMS automation** (optional):
-   - Go to Settings → Automation
+   - Go to Settings † Automation
    - Enable "SMS Automation"
    - Tap "Setup Shortcut" to create iOS automation
-   - Download SMS Analyzer (Settings → SMS Analyzer)
+   - Download SMS Analyzer (Settings † SMS Analyzer)
 4. **Start tracking!**
 
 ### SMS Automation Setup
@@ -126,18 +126,18 @@ Spender Beta is available as a public beta on the App Store:
 The SMS Analyzer is a **583MB machine learning model** that extracts transaction details from bank SMS messages.
 
 **Do you need it?**
-- ✅ **YES** - If you want automatic SMS capture
-- ❌ **NO** - If you only use manual entry or file imports
+-  **YES** - If you want automatic SMS capture
+-  **NO** - If you only use manual entry or file imports
 
 **How to download:**
-1. Go to Settings → SMS Analyzer
+1. Go to Settings † SMS Analyzer
 2. Tap "Download SMS Analyzer"
 3. Wait 2-5 minutes (keep app open)
 4. Enable SMS automation in Settings
 
 ---
 
-## 💡 FAQ
+##  FAQ
 
 ### Do I need to download the SMS Analyzer?
 
@@ -161,19 +161,19 @@ Yes! Import from:
 ### How do I backup my data?
 
 Two ways:
-1. **Local Backup**: Settings → Backup & Restore → Create Backup (saves encrypted XML)
-2. **iCloud Backup**: Settings → Backup & Restore → Enable iCloud Backup (automatic)
+1. **Local Backup**: Settings † Backup & Restore † Create Backup (saves encrypted XML)
+2. **iCloud Backup**: Settings † Backup & Restore † Enable iCloud Backup (automatic)
 
 ### Can I export my data?
 
-Yes! Settings → Import/Export → Export Transactions
+Yes! Settings † Import/Export † Export Transactions
 
 Formats: CSV, QIF, OFX
 
 ### How does account merging work?
 
 If you have duplicate accounts (e.g., "HDFC Bank" and "HDFC"):
-1. Settings → Accounts
+1. Settings † Accounts
 2. Tap the duplicate account
 3. Tap "Merge Account"
 4. Select target account
@@ -191,7 +191,7 @@ The app learns from your corrections and auto-applies them to future transaction
 
 ---
 
-## 🐛 Bug Reports & Feedback
+##  Bug Reports & Feedback
 
 Found a bug? Have a feature request? We'd love to hear from you!
 
@@ -217,7 +217,7 @@ Email us directly at spender-support@gmail.com with any feedback or suggestions.
 
 ---
 
-## 🔒 Privacy Policy
+##  Privacy Policy
 
 Your privacy is our top priority. Read our [Privacy Policy](PRIVACY_POLICY.md) to understand:
 - What data we collect (spoiler: none)
@@ -228,7 +228,7 @@ Your privacy is our top priority. Read our [Privacy Policy](PRIVACY_POLICY.md) t
 
 ---
 
-## 📞 Support
+##  Support
 
 Need help? We're here for you.
 
@@ -240,7 +240,7 @@ Need help? We're here for you.
 
 ---
 
-## 🗺️ Roadmap
+##  Roadmap
 
 ### Coming Soon
 - Widgets for iOS home screen
@@ -261,19 +261,19 @@ Want to influence the roadmap? [Email us your ideas!](mailto:spender-support@gma
 
 ---
 
-## 📜 License & Disclaimer
+##  License & Disclaimer
 
 Spender Beta is proprietary software. During the beta period:
-- ✅ Free to use
-- ✅ All features unlocked
-- ⚠️ Beta software - may have bugs
-- ⚠️ Features may change
+-  Free to use
+-  All features unlocked
+-  Beta software - may have bugs
+-  Features may change
 
 **This is beta software. Use at your own risk. Always maintain backups of your financial data.**
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 Built with:
 - SwiftUI
@@ -285,7 +285,7 @@ Special thanks to all our beta testers!
 
 ---
 
-## 📬 Stay Updated
+##  Stay Updated
 
 - **App Store**: Automatic updates when we release new beta versions
 - **Email Updates**: Major announcements sent to all beta testers
@@ -293,7 +293,7 @@ Special thanks to all our beta testers!
 
 ---
 
-## ❤️ Made with Privacy in Mind
+##  Made with Privacy in Mind
 
 Spender Beta respects your privacy. Your financial data belongs to you, stays on your device, and is never shared with anyone - including us.
 
@@ -309,4 +309,4 @@ Spender Beta respects your privacy. Your financial data belongs to you, stays on
 
 *Spender Beta - Smart Personal Finance Tracker*
 
-*Copyright © 2025. All rights reserved.*
+*Copyright Â© 2025. All rights reserved.*
