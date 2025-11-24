@@ -17,7 +17,7 @@ This guide covers common issues, setup instructions, troubleshooting, and how to
 To help us assist you faster, please include:
 - **iOS Version:** (e.g., iOS 17.1)
 - **Device Model:** (e.g., iPhone 14 Pro)
-- **App Version:** (Settings † About † Version)
+- **App Version:** (Settings â€  About â€  Version)
 - **Issue Description:** What happened vs. what you expected
 - **Steps to Reproduce:** How can we recreate the issue?
 - **Screenshots:** If applicable (hide sensitive financial data)
@@ -43,7 +43,7 @@ To help us assist you faster, please include:
    - See it appear in your transaction list
 
 4. **Set Up Accounts**
-   - Go to **Settings † Accounts**
+   - Go to **Settings â€  Accounts**
    - Tap existing accounts to set starting balances
    - Or add new accounts manually
 
@@ -56,16 +56,16 @@ To help us assist you faster, please include:
 ##  SMS Automation Setup
 
 ### Requirements
--  iOS 16.0 or later
+-  iOS 26.0 or later
 -  600MB+ free storage space
 -  WiFi connection (for downloading SMS Analyzer)
 -  Bank transaction SMS messages
 
 ### Step-by-Step Setup
 
-#### Step 1: Download SMS Analyzer (583MB)
+#### Step 1: Download SMS Analyzer
 1. Open Spender Beta
-2. Go to **Settings † SMS Analyzer**
+2. Go to **Settings â€  SMS Analyzer**
 3. Tap **"Download SMS Analyzer"**
 4. **Keep the app open** while downloading (2-5 minutes)
 5. Wait for "Download Complete" message
@@ -77,20 +77,20 @@ To help us assist you faster, please include:
 - If stuck, force quit app and try again
 
 #### Step 2: Create iOS Shortcut
-1. In Settings † Automation, tap **"Setup Shortcut"**
+1. In Settings â€  Automation, tap **"Setup Shortcut"**
 2. Follow iOS prompts to create automation
 3. Grant SMS permissions when asked
 4. Test with a bank SMS message
 
 #### Step 3: Enable SMS Automation
-1. In Settings † Automation, toggle **"SMS Automation"** ON
+1. In Settings â€  Automation, toggle **"SMS Automation"** ON
 2. You're done! New bank SMS messages will be processed automatically
 
 ### What SMS Messages Work?
 The SMS Analyzer recognizes transaction SMS from:
--  All major Indian banks (HDFC, ICICI, SBI, Axis, Kotak, etc.)
+-  All major banks
 -  Credit card companies
--  Digital wallets (PayTM, PhonePe, Google Pay)
+-  Digital wallets
 -  UPI payment notifications
 
 **Format Requirements:**
@@ -110,20 +110,20 @@ The SMS Analyzer recognizes transaction SMS from:
 **Possible Causes & Solutions:**
 
 1. **SMS Analyzer Not Downloaded**
-   - **Check:** Settings † SMS Analyzer † Status should say "Downloaded"
+   - **Check:** Settings â€  SMS Analyzer â€  Status should say "Downloaded"
    - **Fix:** Download the SMS Analyzer (see [SMS Automation Setup](#sms-automation-setup))
    - **Important:** SMS automation REQUIRES the SMS Analyzer - it won't work without it
 
 2. **SMS Automation Disabled**
-   - **Check:** Settings † Automation † "SMS Automation" should be ON
+   - **Check:** Settings â€  Automation â€  "SMS Automation" should be ON
    - **Fix:** Toggle SMS Automation ON
 
 3. **iOS Shortcut Not Set Up**
    - **Check:** iOS Shortcuts app should have a Spender automation
-   - **Fix:** Settings † Automation † "Setup Shortcut" † Follow prompts
+   - **Fix:** Settings â€  Automation â€  "Setup Shortcut" â€  Follow prompts
 
 4. **SMS Permissions Not Granted**
-   - **Check:** iOS Settings † Spender † Should have SMS access
+   - **Check:** iOS Settings â€  Spender â€  Should have SMS access
    - **Fix:** Grant SMS permissions in iOS Settings
 
 5. **Non-Transaction SMS**
@@ -141,19 +141,19 @@ The SMS Analyzer recognizes transaction SMS from:
 **Possible Causes & Solutions:**
 
 1. **Starting Balance Not Set**
-   - **Check:** Settings † Accounts † Tap account † Starting Balance
+   - **Check:** Settings â€  Accounts â€  Tap account â€  Starting Balance
    - **Fix:** Set the correct starting balance for each account
 
 2. **Duplicate Transactions**
    - **Check:** Look for duplicate entries in transaction list
-   - **Fix:** Delete duplicate transactions (swipe left † Delete)
+   - **Fix:** Delete duplicate transactions (swipe left â€  Delete)
 
 3. **Missing Transactions**
    - **Check:** Filter transactions by account to see all entries
    - **Fix:** Add missing transactions manually
 
 4. **Merged Accounts Not Reflected**
-   - **Check:** Settings † Accounts † Verify merged accounts show correct target
+   - **Check:** Settings â€  Accounts â€  Verify merged accounts show correct target
    - **Fix:** Re-merge accounts if needed
 
 5. **Transfer Counted Twice**
@@ -167,7 +167,7 @@ The SMS Analyzer recognizes transaction SMS from:
 **Possible Causes & Solutions:**
 
 1. **Insufficient Storage Space**
-   - **Check:** iOS Settings † General † iPhone Storage
+   - **Check:** iOS Settings â€  General â€  iPhone Storage
    - **Fix:** Free up at least 600MB of space (delete apps, photos, or files)
 
 2. **Poor Internet Connection**
@@ -193,15 +193,15 @@ The SMS Analyzer recognizes transaction SMS from:
 **Possible Causes & Solutions:**
 
 1. **iCloud Not Logged In**
-   - **Check:** iOS Settings † [Your Name] † iCloud
+   - **Check:** iOS Settings â€  [Your Name] â€  iCloud
    - **Fix:** Sign in to iCloud
 
 2. **iCloud Storage Full**
-   - **Check:** iOS Settings † [Your Name] † iCloud † Manage Storage
+   - **Check:** iOS Settings â€  [Your Name] â€  iCloud â€  Manage Storage
    - **Fix:** Free up iCloud space or upgrade storage plan
 
 3. **iCloud Drive Disabled**
-   - **Check:** iOS Settings † [Your Name] † iCloud † iCloud Drive
+   - **Check:** iOS Settings â€  [Your Name] â€  iCloud â€  iCloud Drive
    - **Fix:** Enable iCloud Drive
 
 4. **Network Issues**
@@ -246,7 +246,7 @@ The SMS Analyzer recognizes transaction SMS from:
 
 3. **iOS Bug**
    - **Check:** Is iOS up to date?
-   - **Fix:** Update to latest iOS version (Settings † General † Software Update)
+   - **Fix:** Update to latest iOS version (Settings â€  General â€  Software Update)
 
 4. **App Bug**
    - **Check:** Is Spender Beta up to date?
@@ -288,7 +288,7 @@ Date,Amount,Description,Account,Category,Type
 ```
 
 ### Import Steps
-1. Go to **Settings † Import/Export † Import Transactions**
+1. Go to **Settings â€  Import/Export â€  Import Transactions**
 2. Select **CSV File**
 3. Choose file from Files app
 4. Review column mapping (auto-detected)
@@ -307,7 +307,7 @@ Date,Amount,Description,Account,Category,Type
 - **XML** - Complete backup with all settings
 
 ### Export Steps
-1. Go to **Settings † Import/Export † Export Transactions**
+1. Go to **Settings â€  Import/Export â€  Export Transactions**
 2. Select format (CSV, QIF, OFX, or XML)
 3. Choose date range or "All Transactions"
 4. Tap **Export**
@@ -326,10 +326,10 @@ Date,Amount,Description,Account,Category,Type
 
 ### Adding Accounts
 1. **Automatic Discovery:** Accounts are auto-discovered from transactions
-2. **Manual Addition:** Settings † Accounts † Add Account
+2. **Manual Addition:** Settings â€  Accounts â€  Add Account
 
 ### Setting Starting Balances
-1. Go to **Settings † Accounts**
+1. Go to **Settings â€  Accounts**
 2. Tap the account
 3. Tap **"Set Starting Balance"**
 4. Enter balance as of first transaction date
@@ -338,9 +338,9 @@ Date,Amount,Description,Account,Category,Type
 **Important:** Starting balance should be the account balance BEFORE your first tracked transaction.
 
 ### Merging Duplicate Accounts
-If you have duplicate accounts (e.g., "HDFC Bank" and "HDFC"):
+If you have duplicate accounts (e.g., "HSBC Bank" and "HSBC"):
 
-1. Go to **Settings † Accounts**
+1. Go to **Settings â€  Accounts**
 2. Tap the **duplicate account** (source)
 3. Tap **"Merge Account"**
 4. Select **target account** to merge into
@@ -375,7 +375,7 @@ Spender Beta includes 13 default categories:
 - Uncategorized
 
 ### Creating Custom Categories
-1. Go to **Settings † Categories**
+1. Go to **Settings â€  Categories**
 2. Tap **"Add Category"**
 3. Enter category name
 4. Choose color and icon (if available)
@@ -396,13 +396,13 @@ Spender Beta includes 13 default categories:
 ### Local XML Backup (Recommended)
 
 **Create Backup:**
-1. Go to **Settings † Backup & Restore**
+1. Go to **Settings â€  Backup & Restore**
 2. Tap **"Create Backup"**
 3. Save XML file to Files app
 4. **Store securely** (iCloud Drive, Google Drive, email to yourself, etc.)
 
 **Restore Backup:**
-1. Go to **Settings † Backup & Restore**
+1. Go to **Settings â€  Backup & Restore**
 2. Tap **"Restore from Backup"**
 3. Select XML file
 4. Confirm restoration
@@ -418,7 +418,7 @@ Spender Beta includes 13 default categories:
 ### iCloud Backup (Optional)
 
 **Enable iCloud Backup:**
-1. Go to **Settings † Backup & Restore**
+1. Go to **Settings â€  Backup & Restore**
 2. Toggle **"iCloud Backup"** ON
 3. Initial backup starts automatically
 4. Future backups are automatic
@@ -426,12 +426,12 @@ Spender Beta includes 13 default categories:
 **Restore from iCloud:**
 1. Install app on new device
 2. Sign in with same Apple ID
-3. Go to Settings † Backup & Restore
+3. Go to Settings â€  Backup & Restore
 4. Tap **"Restore from iCloud"**
 5. Select backup to restore
 
 **Important:** iCloud backup requires:
-- Signed in to iCloud (iOS Settings † [Your Name])
+- Signed in to iCloud (iOS Settings â€  [Your Name])
 - iCloud Drive enabled
 - Sufficient iCloud storage space
 
@@ -466,7 +466,7 @@ For full privacy details, see our [Privacy Policy](PRIVACY_POLICY.md).
 ##  FAQ
 
 For comprehensive FAQ covering setup, usage, and troubleshooting, see:
-- **In-App FAQ:** Settings † FAQ & Help
+- **In-App FAQ:** Settings â€  FAQ & Help
 - **Online FAQ:** [README - FAQ Section](README.md#faq)
 
 ### Quick FAQ
@@ -484,7 +484,7 @@ A: Absolutely. All processing happens on your device. Your SMS and transaction d
 A: Yes, via iCloud Backup. Enable iCloud Backup on both devices (same Apple ID) for automatic sync.
 
 **Q: How do I backup my data?**
-A: Two ways - Local XML Backup (Settings † Backup & Restore † Create Backup) or iCloud Backup (auto if enabled).
+A: Two ways - Local XML Backup (Settings â€  Backup & Restore â€  Create Backup) or iCloud Backup (auto if enabled).
 
 **Q: What banks are supported?**
 A: All banks that send transaction SMS. Optimized for Indian banks but works globally.
@@ -500,7 +500,7 @@ A: All banks that send transaction SMS. Optimized for Indian banks but works glo
 **Please Include:**
 - Device model (e.g., iPhone 14 Pro)
 - iOS version (e.g., iOS 17.1)
-- App version (Settings † About)
+- App version (Settings â€  About)
 - Bug description (what happened vs. expected)
 - Steps to reproduce
 - Screenshots (if applicable)
@@ -514,7 +514,7 @@ App Version: 1.0.35
 Bug: Account balance shows incorrect amount after editing transaction
 
 Steps to Reproduce:
-1. Open account "HDFC Savings"
+1. Open account "HSBC Savings"
 2. Edit any transaction amount
 3. Save transaction
 4. Balance doesn't update
@@ -539,18 +539,6 @@ We'd love to hear your ideas!
 - Why it would be useful
 - How you'd use it in your daily workflow
 
-**Example Feature Request:**
-```
-Feature: Monthly budget limits per category
-
-Why: I want to track if I'm overspending on dining out
-
-How I'd Use It:
-- Set $200 budget for "Food & Dining"
-- Get notification when I hit 80% of budget
-- See visual indicator on dashboard
-```
-
 ---
 
 ##  Additional Resources
@@ -565,10 +553,10 @@ How I'd Use It:
 ##  Checklist for Common Issues
 
 ### SMS Not Working?
-- [ ] SMS Analyzer downloaded (Settings † SMS Analyzer)
-- [ ] SMS Automation enabled (Settings † Automation)
-- [ ] iOS Shortcut created (Settings † Automation † Setup Shortcut)
-- [ ] SMS permissions granted (iOS Settings † Spender)
+- [ ] SMS Analyzer downloaded (Settings â€  SMS Analyzer)
+- [ ] SMS Automation enabled (Settings â€  Automation)
+- [ ] iOS Shortcut created (Settings â€  Automation â€  Setup Shortcut)
+- [ ] SMS permissions granted (iOS Settings â€  Spender)
 - [ ] Bank SMS format is standard transaction notification
 
 ### Balance Wrong?
