@@ -9,7 +9,7 @@ This guide covers common issues, setup instructions, troubleshooting, and how to
 ##  Contact Support
 
 ### Email Support
-- **Email:** spender-support@gmail.com
+- **Email:** numanmubarak@protonmail.com
 - **Response Time:** Within 24-48 hours
 - **Support Hours:** 9 AM - 9 PM IST (Monday-Saturday)
 
@@ -494,7 +494,7 @@ A: All banks that send transaction SMS. Optimized for Indian banks but works glo
 ##  Report a Bug
 
 ### Via Email
-**Email:** spender-support@gmail.com
+**Email:** numanmubarak@protonmail.com
 **Subject:** "Spender Beta Bug Report"
 
 **Please Include:**
@@ -531,7 +531,7 @@ Screenshot: [attached]
 
 We'd love to hear your ideas!
 
-**Email:** spender-support@gmail.com
+**Email:** numanmubarak@protonmail.com
 **Subject:** "Spender Beta Feature Request"
 
 **Tell Us:**
@@ -546,7 +546,7 @@ We'd love to hear your ideas!
 - **App Homepage:** [README.md](README.md)
 - **Privacy Policy:** [PRIVACY_POLICY.md](PRIVACY_POLICY.md)
 - **App Store:** [Download Spender Beta](README.md#installation)
-- **Email Support:** spender-support@gmail.com
+- **Email Support:** numanmubarak@protonmail.com
 
 ---
 
