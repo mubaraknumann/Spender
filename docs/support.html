@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - Spender</title>
+    <meta name="description" content="Support guide for Spender. Troubleshooting, setup instructions, and FAQs.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'sans-serif'] },
+                    colors: {
+                        brand: { 500: '#0ea5e9', 600: '#0284c7' },
+                        dark: { bg: '#0a0a0a', card: '#171717', border: '#262626' }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { background-color: #0a0a0a; color: #e5e5e5; -webkit-font-smoothing: antialiased; overflow-wrap: break-word; word-wrap: break-word; }
+        .glass-panel { background: rgba(23, 23, 23, 0.6); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.05); }
+        h2 { color: #fff; font-weight: 700; font-size: 1.5rem; margin-top: 2.5rem; margin-bottom: 1rem; }
+        h3 { color: #f3f4f6; font-weight: 600; font-size: 1.25rem; margin-top: 1.5rem; margin-bottom: 0.75rem; }
+        p { color: #9ca3af; margin-bottom: 1rem; line-height: 1.6; }
+        ul { list-style-type: disc; padding-left: 1.5rem; margin-bottom: 1rem; color: #9ca3af; }
+        li { margin-bottom: 0.5rem; }
+        a { color: #0ea5e9; text-decoration: none; transition: color 0.2s; }
+        a:hover { color: #38bdf8; text-decoration: underline; }
+    </style>
+</head>
+<body class="overflow-x-hidden">
+
+    <!-- Nav -->
+    <nav class="fixed w-full z-50 top-0 bg-dark-bg/80 backdrop-blur-md border-b border-white/5">
+        <div class="max-w-4xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="index.html" class="text-xl font-bold tracking-tight text-white">Spender</a>
+            <a href="index.html" class="text-sm text-gray-400 hover:text-white">Back to Home</a>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <main class="pt-32 pb-20 px-6">
+        <div class="max-w-3xl mx-auto">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6 text-white">Support</h1>
+            <p class="text-xl text-gray-400 mb-12">Common issues, setup instructions, and how to get help.</p>
+
+            <div class="glass-panel rounded-2xl p-8 mb-12">
+                <h2 class="!mt-0 text-blue-400">Contact Support</h2>
+                <p><strong>Email:</strong> <a href="mailto:numanmubarak@protonmail.com">numanmubarak@protonmail.com</a></p>
+                <p><strong>Response Time:</strong> Within 24-48 hours</p>
+                <p><strong>Please include:</strong> iOS Version, Device Model, App Version, and Issue Description.</p>
+                <p>You can also <a href="https://github.com/mubaraknumann/Spender/issues" target="_blank">raise an issue on GitHub</a>.</p>
+            </div>
+
+            <!-- Troubleshooting Section -->
+            <section id="troubleshooting">
+                <h2>Troubleshooting</h2>
+                
+                <h3>SMS Messages Not Being Processed</h3>
+                <p>If SMS messages arrive but no transactions appear:</p>
+                <ul>
+                    <li><strong>Check SMS Analyzer:</strong> Go to Settings → SMS Analyzer. Status should say "Downloaded".</li>
+                    <li><strong>Check Automation:</strong> Settings → Automation → "SMS Automation" should be ON.</li>
+                    <li><strong>Check Permissions:</strong> iOS Settings → Spender → Grant SMS permissions.</li>
+                    <li><strong>Supported Messages:</strong> The analyzer only processes transactional SMS (debits, credits, payments). OTPs are ignored.</li>
+                </ul>
+
+                <h3>Incorrect Account Balances</h3>
+                <ul>
+                    <li><strong>Starting Balance:</strong> Go to Settings → Accounts and ensure you've set a starting balance.</li>
+                    <li><strong>Duplicates:</strong> Check for duplicate transactions and swipe left to delete.</li>
+                </ul>
+
+                <h3>Download Fails</h3>
+                <p>If the SMS Analyzer download fails, ensure you have at least <strong>600MB free space</strong> and a stable WiFi connection. Keep the app open during download.</p>
+            </section>
+
+            <!-- Setup Section -->
+            <section id="setup" class="mt-12">
+                <h2>Setup Guide</h2>
+                
+                <h3>SMS Automation</h3>
+                <ol class="list-decimal pl-6 space-y-2 text-gray-400">
+                    <li>Open Spender and go to <strong>Settings → SMS Analyzer</strong>.</li>
+                    <li>Tap <strong>"Download SMS Analyzer"</strong> and wait for completion.</li>
+                    <li>Go to <strong>Settings → Automation</strong> and tap "Setup Shortcut".</li>
+                    <li>Follow the iOS prompts to create the automation.</li>
+                    <li>Toggle "SMS Automation" to ON.</li>
+                </ol>
+
+                <h3>File Import</h3>
+                <p>We support CSV, QIF, OFX, and all Excel formats (.xlsx, .xls).</p>
+            </section>
+
+            <!-- FAQ -->
+            <section id="faq" class="mt-12 border-t border-white/10 pt-8">
+                <h2>Quick FAQ</h2>
+                
+                <div class="space-y-6">
+                    <div>
+                        <h3 class="text-lg font-semibold text-white">Is my data safe?</h3>
+                        <p>Absolutely. All processing happens on your device. Your SMS and transaction data never leave your iPhone.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-white">Do I need the SMS Analyzer?</h3>
+                        <p>Only if you want SMS automation. The app works perfectly with manual entry and file imports without it.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-white">How do I backup?</h3>
+                        <p>You can use Settings → Backup to enable Local Backup or iCloud for automatic sync across devices.</p>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-12 border-t border-white/5 text-gray-500 text-sm">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            &copy; 2025 Spender Team.
+        </div>
+    </footer>
+
+</body>
+</html>

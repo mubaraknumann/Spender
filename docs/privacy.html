@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Spender</title>
+    <meta name="description" content="Privacy Policy for Spender. We collect ZERO data. Period.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'sans-serif'] },
+                    colors: {
+                        brand: { 500: '#0ea5e9', 600: '#0284c7' },
+                        dark: { bg: '#0a0a0a', card: '#171717', border: '#262626' }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { 
+            background-color: #0a0a0a; 
+            color: #e5e5e5; 
+            -webkit-font-smoothing: antialiased; 
+        }
+        /* Smooth glass effect for header */
+        .glass-nav {
+            background: rgba(10, 10, 10, 0.8);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden selection:bg-brand-500 selection:text-white">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 top-0 glass-nav transition-all duration-300">
+        <div class="max-w-4xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="index.html" class="text-xl font-bold tracking-tight text-white hover:text-brand-500 transition-colors">Spender</a>
+            <a href="index.html" class="text-sm text-gray-400 hover:text-white transition-colors">Back to Home</a>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <main class="pt-32 pb-24 px-6 md:px-8">
+        <article class="max-w-3xl mx-auto">
+            
+            <!-- Header -->
+            <header class="mb-16 border-b border-white/10 pb-10">
+                <h1 class="text-4xl md:text-5xl font-bold text-white tracking-tight mb-4">Privacy Policy</h1>
+                <p class="text-lg text-gray-500">Last Updated: November 22, 2025</p>
+            </header>
+
+            <!-- Core Commitment Box -->
+            <div class="bg-blue-500/5 border border-blue-500/20 rounded-2xl p-8 mb-16">
+                <h2 class="text-2xl font-bold text-blue-400 mb-4 mt-0">Our Core Commitment</h2>
+                <p class="text-xl font-medium text-white mb-4 leading-relaxed">
+                    We collect ZERO data. Period.
+                </p>
+                <p class="text-blue-100/80 leading-relaxed m-0">
+                    We don't have servers, we don't collect analytics, we don't track you, and we never see your financial data. Your business is your business.
+                </p>
+            </div>
+
+            <!-- Policy Content -->
+            <div class="space-y-16 text-gray-300">
+
+                <!-- Data Collection -->
+                <section>
+                    <h2 class="text-2xl font-bold text-white mb-6">Data Collection</h2>
+                    <div class="prose prose-invert max-w-none">
+                        <p class="text-lg mb-4"><strong>What We Collect:</strong> <span class="text-white">Nothing.</span> We do not collect, store, transmit, or access any of your personal or financial data.</p>
+                        
+                        <p class="mb-4"><strong>What We DON'T Collect:</strong></p>
+                        <div class="grid md:grid-cols-2 gap-x-8 gap-y-2">
+                            <ul class="list-disc pl-5 space-y-2 text-gray-400">
+                                <li>No SMS messages</li>
+                                <li>No transaction data</li>
+                                <li>No financial information</li>
+                                <li>No account numbers</li>
+                            </ul>
+                            <ul class="list-disc pl-5 space-y-2 text-gray-400">
+                                <li>No personal information</li>
+                                <li>No location data</li>
+                                <li>No usage analytics</li>
+                                <li>No advertising IDs</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- How It Works -->
+                <section>
+                    <h2 class="text-2xl font-bold text-white mb-6">How Spender Works</h2>
+                    
+                    <div class="space-y-8">
+                        <div>
+                            <h3 class="text-xl font-semibold text-white mb-3">SMS Processing (100% On-Device)</h3>
+                            <p class="leading-relaxed mb-4">
+                                When you enable SMS automation, our "SMS Analyzer" machine learning model runs <strong>locally on your device</strong>.
+                            </p>
+                            <ul class="list-disc pl-5 space-y-2 text-gray-400">
+                                <li>No SMS content ever leaves your device.</li>
+                                <li>No data is uploaded to any server.</li>
+                                <li>The model runs completely offline using iOS native APIs.</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h3 class="text-xl font-semibold text-white mb-3">Transaction Storage</h3>
+                            <p class="leading-relaxed">
+                                All transactions are stored in <code>UserDefaults</code> directly on your device. There are no cloud uploads unless you explicitly enable iCloud Backup.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Backup & Sync -->
+                <section>
+                    <h2 class="text-2xl font-bold text-white mb-6">Backup & Sync</h2>
+                    
+                    <div class="space-y-8">
+                        <div>
+                            <h3 class="text-xl font-semibold text-white mb-3">iCloud Backup (Optional)</h3>
+                            <p class="leading-relaxed">
+                                If you enable iCloud Backup in Settings, your data is encrypted and stored in <strong>your personal iCloud account</strong>. We never have access to it, and it falls under Apple's standard iCloud privacy policies.
+                            </p>
+                        </div>
+
+                        <div>
+                            <h3 class="text-xl font-semibold text-white mb-3">Local Backup (Optional)</h3>
+                            <p class="leading-relaxed">
+                                You can create encrypted local backups saved to your device's Files app. You have full control over where to store or share these files (e.g., AirDrop, Drive, Email).
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Third Party -->
+                <section>
+                    <h2 class="text-2xl font-bold text-white mb-6">Third-Party Services</h2>
+                    <p class="leading-relaxed mb-6">We keep dependencies to an absolute minimum to ensure privacy.</p>
+                    
+                    <div class="bg-white/5 rounded-xl p-6 space-y-4 border border-white/5">
+                        <div>
+                            <h4 class="text-white font-semibold mb-1">ONNX Runtime</h4>
+                            <p class="text-sm text-gray-400">Used for running the ML model locally. Runs entirely offline.</p>
+                        </div>
+                        <div>
+                            <h4 class="text-white font-semibold mb-1">Currency Rates API</h4>
+                            <p class="text-sm text-gray-400">Fetches exchange rates from a public GitHub CDN. No personal data is sent.</p>
+                        </div>
+                        <div class="pt-2 border-t border-white/10">
+                            <h4 class="text-white font-semibold mb-1">No Analytics SDKs</h4>
+                            <p class="text-sm text-gray-400">We do NOT use Google Analytics, Facebook SDK, Mixpanel, Firebase, or any other tracking tools.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Permissions -->
+                <section>
+                    <h2 class="text-2xl font-bold text-white mb-6">Permissions</h2>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <span class="text-brand-500 mr-3 mt-1">•</span>
+                            <div>
+                                <strong class="text-white block">SMS Permission (Optional)</strong>
+                                Used solely to read bank transaction messages for automatic parsing on-device.
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-brand-500 mr-3 mt-1">•</span>
+                            <div>
+                                <strong class="text-white block">iCloud Permission (Optional)</strong>
+                                Used solely to backup your data to your private iCloud container.
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Contact -->
+                <section class="border-t border-white/10 pt-10">
+                    <h2 class="text-2xl font-bold text-white mb-4">Contact Us</h2>
+                    <p class="leading-relaxed mb-4">
+                        If you have any questions about our privacy practices or need to request data deletion (which you can do yourself by uninstalling the app), please contact us:
+                    </p>
+                    <a href="mailto:numanmubarak@protonmail.com" class="inline-flex items-center text-brand-500 hover:text-brand-400 font-medium transition-colors">
+                        numanmubarak@protonmail.com
+                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                    </a>
+                </section>
+
+            </div>
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-12 border-t border-white/5 text-gray-500 text-sm">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <p>&copy; 2025 Spender Team. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
