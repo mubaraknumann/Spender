@@ -2,7 +2,7 @@
 
 **Smart Personal Finance Tracker**
 
-[![Download on App Store](https://img.shields.io/badge/App_Store-Download_Beta-blue?style=for-the-badge&logo=apple)](APP_STORE_LINK_HERE)
+[![Download on App Store](https://img.shields.io/badge/App_Store-Download_Beta-blue?style=for-the-badge&logo=apple)](https://apps.apple.com/app/apple-store/id6754823712?pt=128175769&ct=Beta&mt=8)
 [![Privacy First](https://img.shields.io/badge/Privacy-First-green?style=for-the-badge)](PRIVACY_POLICY.md)
 [![All Features Free](https://img.shields.io/badge/Beta-All_Features_FREE-orange?style=for-the-badge)](#beta-status)
 
@@ -96,7 +96,7 @@ We're looking for beta testers to help us refine the app before the official lau
 Spender Beta is available as a public beta on the App Store:
 
 1. **Open the App Store** on your iPhone or iPad
-2. **Search for "Spender"** or use this direct link: [Download Spender Beta](APP_STORE_LINK_HERE)
+2. **Search for "Spender"** or use this direct link: [Download Spender Beta](https://apps.apple.com/app/apple-store/id6754823712?pt=128175769&ct=Beta&mt=8)
 3. **Tap "Get"** to download and install
 4. **Open Spender Beta** and start tracking!
 
