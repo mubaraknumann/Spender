@@ -196,7 +196,7 @@ The app learns from your corrections and auto-applies them to future transaction
 Found a bug? Have a feature request? We'd love to hear from you!
 
 ### Report a Bug
-**Email**: [spender-support@gmail.com](mailto:spender-support@gmail.com?subject=Spender%20Beta%20Bug%20Report)
+**Email**: [numanmubarak@protonmail.com](mailto:numanmubarak@protonmail.com?subject=Spender%20Beta%20Bug%20Report)
 
 **Please include:**
 - iOS version
@@ -205,7 +205,7 @@ Found a bug? Have a feature request? We'd love to hear from you!
 - Screenshots (if applicable)
 
 ### Feature Requests
-**Email**: [spender-support@gmail.com](mailto:spender-support@gmail.com?subject=Spender%20Beta%20Feature%20Request)
+**Email**: [numanmubarak@protonmail.com](mailto:numanmubarak@protonmail.com?subject=Spender%20Beta%20Feature%20Request)
 
 **Tell us:**
 - What feature you'd like
@@ -213,7 +213,7 @@ Found a bug? Have a feature request? We'd love to hear from you!
 - How you'd use it
 
 ### General Feedback
-Email us directly at spender-support@gmail.com with any feedback or suggestions.
+Email us directly at numanmubarak@protonmail.com with any feedback or suggestions.
 
 ---
 
@@ -232,7 +232,7 @@ Your privacy is our top priority. Read our [Privacy Policy](PRIVACY_POLICY.md) t
 
 Need help? We're here for you.
 
-- **Email**: [spender-support@gmail.com](mailto:spender-support@gmail.com)
+- **Email**: [numanmubarak@protonmail.com](mailto:numanmubarak@protonmail.com)
 - **Response Time**: Within 24 hours
 - **Support Hours**: 9 AM - 9 PM IST (Monday-Saturday)
 
@@ -257,7 +257,7 @@ Need help? We're here for you.
 - Performance optimization
 - User feedback integration
 
-Want to influence the roadmap? [Email us your ideas!](mailto:spender-support@gmail.com?subject=Feature%20Suggestion)
+Want to influence the roadmap? [Email us your ideas!](mailto:numanmubarak@protonmail.com?subject=Feature%20Suggestion)
 
 ---
 
@@ -299,7 +299,7 @@ Spender Beta respects your privacy. Your financial data belongs to you, stays on
 
 ---
 
-**Questions?** Email us: [spender-support@gmail.com](mailto:spender-support@gmail.com)
+**Questions?** Email us: [numanmubarak@protonmail.com](mailto:numanmubarak@protonmail.com)
 
 **Privacy Policy**: [View Privacy Policy](PRIVACY_POLICY.md)
 
